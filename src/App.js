@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <div className='advice-container' >
         <h5>advice # {advice.id}</h5>
-        <p>{advice.advice}</p>
+        <p><q>{advice.advice}</q></p>
         {console.log(winWidth)}
         <img src={process.env.PUBLIC_URL + 'pattern-divider-mobile.svg'} />
         <div className='dice-container'>
