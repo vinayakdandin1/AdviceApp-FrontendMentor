@@ -14,12 +14,14 @@ body {
 }
 
 .advice-container {
-  background-color: hsl(217, 19%, 38%);
+  background-color: hsl(217, 19%, 24%);
   text-align: center;
   width: 100%;
   min-height: 40vh;
   border-radius: 20px;
   padding: 20px;
+  position: relative;
+  padding-bottom: 60px;
 }
 
 .advice-container h5 {
@@ -40,6 +42,16 @@ body {
 /* .advice-container q {
   quotes: "“" ;
 } */
+
+.dice-container {
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  padding: 20px;
+  border-radius: 100%;
+  transform: translate(50%, 50%);
+}
 
 @media screen and (min-width: 375px) {
   
