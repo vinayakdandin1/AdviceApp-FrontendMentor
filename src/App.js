@@ -24,9 +24,9 @@ function App() {
         <h5>advice # {advice.id}</h5>
         <p><q>{advice.advice}</q></p>
         {console.log(winWidth)}
-        <img src={process.env.PUBLIC_URL + 'pattern-divider-mobile.svg'} />
+        <img alt='pattern' src={process.env.PUBLIC_URL + 'pattern-divider-mobile.svg'} />
         <div className='dice-container'>
-          <img src={process.env.PUBLIC_URL + 'icon-dice.svg'} />
+          <img alt='dice icon' src={process.env.PUBLIC_URL + 'icon-dice.svg'} />
         </div>
         
       </div>    
