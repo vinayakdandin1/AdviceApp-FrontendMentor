@@ -39,10 +39,6 @@ body {
   color: hsl(193, 38%, 86%);
 }
 
-/* .advice-container q {
-  quotes: "“" ;
-} */
-
 .dice-container {
   background-color: hsl(150, 100%, 66%);
   position: absolute;
@@ -54,7 +50,21 @@ body {
 }
 
 @media screen and (min-width: 375px) {
+  .advice-container {
+    width: 500px; 
+    min-height: 200px;
+  }
+
   
+  .divider {
+    margin-top: 20px;
+  }
+
+  .dice-container:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 10px hsl(193, 38%, 86%);
+  }
 }
 
 
